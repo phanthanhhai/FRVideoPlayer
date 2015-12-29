@@ -1,0 +1,56 @@
+# User specific & automatically generated files #
+#################################################
+/app/Config/database.php
+/app/tmp
+/lib/Cake/Console/Templates/skel/tmp/
+/plugins
+/vendors
+/build
+/dist
+/tags
+*.mo
+
+# IDE and editor specific files #
+#################################
+/nbproject
+.idea
+
+*.xcworkspace
+!default.xcworkspace
+xcuserdata
+profile
+DerivedData
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+*.xcworkspace
+
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Icon?
+ehthumbs.db
+Thumbs.db
+
+# Xcode auto-generated files
+##########################
+*.xcuserstate
+*.xcbkptlist
+
+# Android auto-generated files
+##############################
+/bin
+/gen
+
+# Pods - for those of you who use CocoaPods
+Pods
+Podfile.lock

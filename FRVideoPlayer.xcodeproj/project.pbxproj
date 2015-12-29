@@ -7,6 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9132DDAB1C321FF2002F6AA1 /* FRVideoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9132DD9E1C321FF2002F6AA1 /* FRVideoController.swift */; };
+		9132DDAC1C321FF2002F6AA1 /* FRVideoController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9132DD9F1C321FF2002F6AA1 /* FRVideoController.xib */; };
+		9132DDAD1C321FF2002F6AA1 /* video_backward.png in Resources */ = {isa = PBXBuildFile; fileRef = 9132DDA11C321FF2002F6AA1 /* video_backward.png */; };
+		9132DDAE1C321FF2002F6AA1 /* video_close.png in Resources */ = {isa = PBXBuildFile; fileRef = 9132DDA21C321FF2002F6AA1 /* video_close.png */; };
+		9132DDAF1C321FF2002F6AA1 /* video_forward.png in Resources */ = {isa = PBXBuildFile; fileRef = 9132DDA31C321FF2002F6AA1 /* video_forward.png */; };
+		9132DDB01C321FF2002F6AA1 /* video_fullscreen.png in Resources */ = {isa = PBXBuildFile; fileRef = 9132DDA41C321FF2002F6AA1 /* video_fullscreen.png */; };
+		9132DDB11C321FF2002F6AA1 /* video_handle.png in Resources */ = {isa = PBXBuildFile; fileRef = 9132DDA51C321FF2002F6AA1 /* video_handle.png */; };
+		9132DDB21C321FF2002F6AA1 /* video_pause.png in Resources */ = {isa = PBXBuildFile; fileRef = 9132DDA61C321FF2002F6AA1 /* video_pause.png */; };
+		9132DDB31C321FF2002F6AA1 /* video_play.png in Resources */ = {isa = PBXBuildFile; fileRef = 9132DDA71C321FF2002F6AA1 /* video_play.png */; };
+		9132DDB41C321FF2002F6AA1 /* video_share.png in Resources */ = {isa = PBXBuildFile; fileRef = 9132DDA81C321FF2002F6AA1 /* video_share.png */; };
+		9132DDB51C321FF2002F6AA1 /* volume_gray.png in Resources */ = {isa = PBXBuildFile; fileRef = 9132DDA91C321FF2002F6AA1 /* volume_gray.png */; };
+		9132DDB61C321FF2002F6AA1 /* volume_white.png in Resources */ = {isa = PBXBuildFile; fileRef = 9132DDAA1C321FF2002F6AA1 /* volume_white.png */; };
 		915BF1AE1C317BA100384446 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 915BF1AD1C317BA100384446 /* AppDelegate.swift */; };
 		915BF1B01C317BA100384446 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 915BF1AF1C317BA100384446 /* ViewController.swift */; };
 		915BF1B31C317BA100384446 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 915BF1B11C317BA100384446 /* Main.storyboard */; };
@@ -34,6 +46,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9132DD9E1C321FF2002F6AA1 /* FRVideoController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FRVideoController.swift; sourceTree = "<group>"; };
+		9132DD9F1C321FF2002F6AA1 /* FRVideoController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FRVideoController.xib; sourceTree = "<group>"; };
+		9132DDA11C321FF2002F6AA1 /* video_backward.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = video_backward.png; sourceTree = "<group>"; };
+		9132DDA21C321FF2002F6AA1 /* video_close.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = video_close.png; sourceTree = "<group>"; };
+		9132DDA31C321FF2002F6AA1 /* video_forward.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = video_forward.png; sourceTree = "<group>"; };
+		9132DDA41C321FF2002F6AA1 /* video_fullscreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = video_fullscreen.png; sourceTree = "<group>"; };
+		9132DDA51C321FF2002F6AA1 /* video_handle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = video_handle.png; sourceTree = "<group>"; };
+		9132DDA61C321FF2002F6AA1 /* video_pause.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = video_pause.png; sourceTree = "<group>"; };
+		9132DDA71C321FF2002F6AA1 /* video_play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = video_play.png; sourceTree = "<group>"; };
+		9132DDA81C321FF2002F6AA1 /* video_share.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = video_share.png; sourceTree = "<group>"; };
+		9132DDA91C321FF2002F6AA1 /* volume_gray.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = volume_gray.png; sourceTree = "<group>"; };
+		9132DDAA1C321FF2002F6AA1 /* volume_white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = volume_white.png; sourceTree = "<group>"; };
 		915BF1AA1C317BA100384446 /* FRVideoPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FRVideoPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		915BF1AD1C317BA100384446 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		915BF1AF1C317BA100384446 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -74,6 +98,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9132DDA01C321FF2002F6AA1 /* videoIcon */ = {
+			isa = PBXGroup;
+			children = (
+				9132DDA11C321FF2002F6AA1 /* video_backward.png */,
+				9132DDA21C321FF2002F6AA1 /* video_close.png */,
+				9132DDA31C321FF2002F6AA1 /* video_forward.png */,
+				9132DDA41C321FF2002F6AA1 /* video_fullscreen.png */,
+				9132DDA51C321FF2002F6AA1 /* video_handle.png */,
+				9132DDA61C321FF2002F6AA1 /* video_pause.png */,
+				9132DDA71C321FF2002F6AA1 /* video_play.png */,
+				9132DDA81C321FF2002F6AA1 /* video_share.png */,
+				9132DDA91C321FF2002F6AA1 /* volume_gray.png */,
+				9132DDAA1C321FF2002F6AA1 /* volume_white.png */,
+			);
+			path = videoIcon;
+			sourceTree = "<group>";
+		};
 		915BF1A11C317BA100384446 = {
 			isa = PBXGroup;
 			children = (
@@ -97,6 +138,9 @@
 		915BF1AC1C317BA100384446 /* FRVideoPlayer */ = {
 			isa = PBXGroup;
 			children = (
+				9132DD9E1C321FF2002F6AA1 /* FRVideoController.swift */,
+				9132DD9F1C321FF2002F6AA1 /* FRVideoController.xib */,
+				9132DDA01C321FF2002F6AA1 /* videoIcon */,
 				915BF1AD1C317BA100384446 /* AppDelegate.swift */,
 				915BF1AF1C317BA100384446 /* ViewController.swift */,
 				915BF1B11C317BA100384446 /* Main.storyboard */,
@@ -229,8 +273,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9132DDB01C321FF2002F6AA1 /* video_fullscreen.png in Resources */,
+				9132DDAF1C321FF2002F6AA1 /* video_forward.png in Resources */,
+				9132DDB31C321FF2002F6AA1 /* video_play.png in Resources */,
+				9132DDB21C321FF2002F6AA1 /* video_pause.png in Resources */,
+				9132DDAE1C321FF2002F6AA1 /* video_close.png in Resources */,
 				915BF1B81C317BA100384446 /* LaunchScreen.storyboard in Resources */,
+				9132DDAC1C321FF2002F6AA1 /* FRVideoController.xib in Resources */,
+				9132DDB41C321FF2002F6AA1 /* video_share.png in Resources */,
 				915BF1B51C317BA100384446 /* Assets.xcassets in Resources */,
+				9132DDB61C321FF2002F6AA1 /* volume_white.png in Resources */,
+				9132DDB51C321FF2002F6AA1 /* volume_gray.png in Resources */,
+				9132DDAD1C321FF2002F6AA1 /* video_backward.png in Resources */,
+				9132DDB11C321FF2002F6AA1 /* video_handle.png in Resources */,
 				915BF1B31C317BA100384446 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -257,6 +312,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				915BF1B01C317BA100384446 /* ViewController.swift in Sources */,
+				9132DDAB1C321FF2002F6AA1 /* FRVideoController.swift in Sources */,
 				915BF1AE1C317BA100384446 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -398,6 +454,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = FRVideoPlayer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Framgia.FRVideoPlayer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -409,6 +466,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = FRVideoPlayer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Framgia.FRVideoPlayer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -482,6 +540,7 @@
 				915BF1D41C317BA100384446 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		915BF1D51C317BA100384446 /* Build configuration list for PBXNativeTarget "FRVideoPlayerTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +549,7 @@
 				915BF1D71C317BA100384446 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		915BF1D81C317BA100384446 /* Build configuration list for PBXNativeTarget "FRVideoPlayerUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +558,7 @@
 				915BF1DA1C317BA100384446 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

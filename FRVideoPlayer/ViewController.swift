@@ -20,6 +20,14 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
-
+    @IBAction func playVideoTouched() {
+        var listVideoUrl: [String] = []
+        listVideoUrl.append("http://clips.vorwaerts-gmbh.de/VfE_html5.mp4")
+        listVideoUrl.append("http://clips.vorwaerts-gmbh.de/VfE_html5.mp4")
+        let videoController = FRVideoController(withListVideo: listVideoUrl)
+        self.presentViewController(videoController, animated: true) { () -> Void in
+            
+        }
+    }
 }
 
